@@ -1,0 +1,104 @@
+/* ======== RESET ======== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ======== BODY ======== */
+body {
+    font-family: "Arial", Helvetica, sans-serif;
+    background: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ======== HEADER ======== */
+header {
+    background: linear-gradient(135deg, #1f2d3a, #2c3e50);
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* ======== MAIN CONTENT ======== */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+    font-size: 1.8rem;
+    border-left: 4px solid #3498db;
+    padding-left: 10px;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ======== IMAGES ======== */
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 12px;
+    transition: transform 0.3s;
+}
+
+.image-container img:hover {
+    transform: scale(1.03);
+}
+
+/* ======== LIST ======== */
+ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* ======== FOOTER ======== */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+footer a {
+    color: #46a8ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
