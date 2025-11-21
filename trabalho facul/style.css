@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 /* ======== BODY ======== */
@@ -79,7 +80,7 @@ ul {
 }
 
 ul li {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
 /* ======== FOOTER ======== */
@@ -102,13 +103,19 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
-#ima {
-    display: block;
-    margin: 20px auto;
-    max-width: 300px;
-    border-radius: 12px;
-    position:relative;
-    left: 50px;
+/* ======== BUTTON ======== */
+.Custom-Button{
+  background-color: #4f46e5; 
+  color: white;
+  font-weight: 700;         
+  padding: 0.5rem 1rem;     
+  border-radius: 0.5rem;    
+  border: none;             
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); 
+  cursor: pointer;          
+  transition: all 0.15s ease-out; 
 }
-
+.Custom-Button:hover {
+  background-color: #4338ca;
+  transform: scale(1.05);
+}
