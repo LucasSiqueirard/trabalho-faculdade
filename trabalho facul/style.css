@@ -102,3 +102,13 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+#ima {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    border-radius: 12px;
+    position:relative;
+    left: 50px;
+}
+
