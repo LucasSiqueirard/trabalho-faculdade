@@ -75,7 +75,32 @@
             </ul>
         
        </section>
+
+       <h2>Interaja com o Gemini (IA)</h2>
+    
+    <div id="response-area">
+        <p>Olá! Pergunte algo sobre o tema do seu projeto de IA.</p>
+    </div>
+
+    <form id="ia-form">
+        <input 
+            type="text" 
+            id="prompt-input" 
+            placeholder="Digite sua pergunta aqui..." 
+            required
+        >
+        <button type="submit" id="send-button">
+            Enviar
+        </button>
+    </form>
+
+    <div id="loading-message" style="display: none; color: #ff9900;">
+        Aguardando a resposta do Gemini...
+    </div>
+
     </main>
+
+    <script src="/.anima.js"></script>
 
 
     
